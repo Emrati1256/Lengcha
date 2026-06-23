@@ -1,0 +1,25 @@
+# Block traditional search engines and standard bots
+User-agent: *
+Disallow: /index.php
+
+# Specifically target and block AI training crawlers
+User-agent: ChatGPT-User
+Disallow: /index.php
+
+User-agent: GPTBot
+Disallow: /index.php
+
+User-agent: Google-Extended
+Disallow: /index.php
+
+User-agent: Anthropic-ai
+Disallow: /index.php
+
+User-agent: Claude-Web
+Disallow: /index.php
+
+User-agent: PerplexityBot
+Disallow: /index.php
+
+User-agent: CCBot
+Disallow: /index.php
